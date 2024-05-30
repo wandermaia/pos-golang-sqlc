@@ -54,6 +54,8 @@ wander@bsnote283:~/pos-golang-sqlc$
 ```
 
 
+
+
 ### Migrations
 
 Exemplo de execução do migrate
@@ -104,6 +106,8 @@ mysql -uroot -p courses
 show tables;
 desc courses;
 desc categories;
+select * from categories;
+select * from courses;
 ```
 
 Executando o migrate down no MySQL
